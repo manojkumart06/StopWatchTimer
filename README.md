@@ -52,3 +52,7 @@ If you want to contribute to this project, feel free to fork the repository and 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Live Demo
+
+You can check out the live demo of this stopwatch application [here](https://manojkumart06.github.io/StopWatchTimer/).
