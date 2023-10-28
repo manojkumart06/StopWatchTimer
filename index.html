@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/38953cd490.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Stopwatch Container -->
+    <div class="stopwatch" >
+        <!-- Stopwatch Icon -->
+        <i class="fa-solid fa-stopwatch fa-bounce stopwatch-icon"></i>
+        <!-- Display for Time -->
+        <div class="time" id="display">00:00:00</div>
+         <!-- Control Buttons -->
+        <div class="controls">
+            <button id="start" onclick="start()">Start</button>
+            <button id="stop" onclick="stop()">Stop</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
