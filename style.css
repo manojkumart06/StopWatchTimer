@@ -1,4 +1,4 @@
-/* styles.css */
+/* style.css */
 body {
     background: #360033;  
     background: -webkit-linear-gradient(to right, #0b8793, #00581d);  
@@ -17,14 +17,15 @@ body {
     overflow: hidden;
     align-items: center;
     }
-    .stopwatch-icon {
-        font-size: 50px; /* Adjust the size as needed */
-        color: transparent;
-        background: radial-gradient(circle,white,blue);
-        -webkit-background-clip: text;
-        background-clip: text;
-        display: inline-block;
-    }
+
+.stopwatch-icon {
+    font-size: 50px; /* Adjust the size as needed */
+    color: transparent;
+    background: radial-gradient(circle,white,blue);
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+}
 
 .stopwatch {
     text-align: center;
